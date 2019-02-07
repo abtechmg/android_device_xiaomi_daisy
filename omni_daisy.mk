@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := daisy
+PRODUCT_RELEASE_NAME := P023
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -31,8 +31,8 @@ PRODUCT_PACKAGES += \
     charger
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_daisy
-PRODUCT_DEVICE := daisy
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi A2 Lite
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_NAME := P023
+PRODUCT_DEVICE := P023
+PRODUCT_BRAND := ASUS
+PRODUCT_MODEL := ASUS ZenPad 10 (P023)
+PRODUCT_MANUFACTURER := ASUS
